@@ -18,11 +18,16 @@
 </head>
 
 <body>
+<!--header-->
+<div>
+  <div class="row">
+    <div class="col col-6 homebtn">
+      <a href="../index.html">Lattitude</a>
+    </div>
 
-<!-- Nav Bar>-->
-<div class="navigation">
+<!-- NAVIGATION>-->
+<div class="col col-6 naviagation divtop">
   <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="index.html">Lattitude</a>
       <button class="navbar-toggler border" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -33,80 +38,71 @@
           <li class="nav-item dropdown">
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbarDropdownMenuLink" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="webcode/temp.html">Max Temperature</a>
-              <a class="dropdown-item" href="webcide/humidity.html">Humidity</a>
-              <a class="dropdown-item" href="webcode/cloudiness.html">Cloudiness</a>
-              <a class="dropdown-item" href="webcode/wind.html">Wind Speed</a>
+              <a class="dropdown-item" href="temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="wind.html">Wind Speed</a>
             </div>
           </li>
           <li class="nav-item">
-      <a class="nav-link" href="webcode/comparison.html">Comparison</a>
-    </li>
+              <a class="nav-link" href="comparison.html">Comparison</a>
+          </li>
           <li class="nav-item">
-      <a class="nav-link" href="webcode/data.html">Data</a>
-    </li>
+              <a class="nav-link" href="data.html">Data</a>
+          </li>
         </ul>
       </div>
     </nav>
 </div>
 <!--end nav all-->
 
-<!--code-->
+<!--CONTENT-->
   <!-- container -->
   <div class="container">
+    <br>
     <section class="row">
-      <div class="col-lg-7 col-md-12">
+      <div class="col col-12 col-md-8 divbody">>
         <div class="description-content">
-          <h1 class="description-header">Summary: Latitude vs. X</h1>
+          <h1 class="description-header">Summary: Latitude vs. Max Temperature</h1>
           <hr>
-          <img src="webcode/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="description-image">
+          <img src="assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="description-image">
           <p>insert project desc here.</p>
         </div>
       </div>
-      
-      <div class="col-lg-5 col-md-12">
 ​
         <!-- visual nav -->
-        <section id="imageNav-area">
-          <div class="imageNav-content">
-            <h2 class="imageNav-header">Visualizations</h2>
-            <hr />
-            <div class="container">
-        <div class="row">
-        <div class="col-6">
-                  <a href="temp.html">
-            <img src="webcode/assets/images/Fig1.png" alt="Latitude vs. Max Temperature", title="Latitude vs. Max Temperature" class="imageNav-photo">
-          </a>
-        </div>
-        <div class="col-6">
-                  <a href="humidity.html">
-            <img src="webcode/assets/images/Fig2.png" alt="Latitude vs. Humidity", title="Latitude vs. Humidity" class="imageNav-photo">
-            </a>
-                  </div>
-        <div class="col-6">
-                  <a href="cloudiness.html">
-            <img src="webcode/assets/images/Fig3.png" alt="Latitude vs. Cloudiness", title="Latitude vs. Cloudiness", class="imageNav-photo">
-          </a>
-        </div>
-        <div class="col-6">
-                  <a href="wind.html">
-            <img src="webcode/assets/images/Fig4.png" alt="Latitude vs. Wind Speed", title="Latitude vs. Wind Speed", class="imageNav-photo">
-          </a>
-        </div>
-              </div>
-      </div>
+
+        <div class="col col-12 col-md-4 divbody">
+          <br>
+          <h2>Visualizations</h2>
+          <hr>
+          <div class='row'>
+            <div class="col col-3 col-md-6">
+              <a href="temp.html"><img src="assets/images/Fig1.png" alt="Latitude vs. Max Temperature" title="Latitude vs. Max Temperature"></a>
+            </div>
+            <div class="col col-3 col-md-6">
+              <a href="humidity.html"><img src="assets/images/Fig2.png" alt="Latitude vs. Humidity" title="Latitude vs. Humidity"></a>
+            </div>
+            <div class="col col-3 col-md-6">
+              <a href="cloudiness.html"><img src="assets/images/Fig3.png" alt="Latitude vs. Cloudiness" title ="Latitude vs. Cloudiness"></a>
+            </div>
+            <div class="col col-3 col-md-6">
+              <a href="wind.html"><img src="assets/images/Fig4.png" alt="Latitude vs. Wind Speed" title="Latitude vs. Wind Speed"></a>
+            </div>
           </div>
-        </section>
+        </div>
         <!-- end visual nav -->
 ​
       </div>
     </section>
   </div>
+  </div>
+  
   <!-- end container -->
 ​
   <!--footer -->
   <footer>
-    <div class="footer"><h3>&copy; Copyright timsamson 2020</h3></div>
+    <div class="footer divfoot" >&copy; Copyright timsamson 2020</div>
   </footer>
   <!-- end footer -->
 

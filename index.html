@@ -14,15 +14,20 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
     <!-- Our own CSS stylesheet -->
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">  
+  <link rel="stylesheet" type="text/css" href="webcode/assets/css/style.css">  
 </head>
 
 <body>
+<!--header-->
+<div>
+  <div class="row">
+    <div class="col col-6 homebtn">
+      <a href="index.html">Lattitude</a>
+    </div>
 
-<!-- Nav Bar>-->
-<div class="navigation">
+<!-- NAVIGATION>-->
+<div class="col col-6 naviagation divtop">
   <nav class="navbar fixed-top navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="index.html">Lattitude</a>
       <button class="navbar-toggler border" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -40,22 +45,23 @@
             </div>
           </li>
           <li class="nav-item">
-      <a class="nav-link" href="webcode/comparison.html">Comparison</a>
-    </li>
+              <a class="nav-link" href="webcode/comparison.html">Comparison</a>
+          </li>
           <li class="nav-item">
-      <a class="nav-link" href="webcode/data.html">Data</a>
-    </li>
+              <a class="nav-link" href="webcode/data.html">Data</a>
+          </li>
         </ul>
       </div>
     </nav>
 </div>
 <!--end nav all-->
 
-<!--code-->
+<!--CONTENT-->
   <!-- container -->
   <div class="container">
+    <br>
     <section class="row">
-      <div class="col-lg-7 col-md-12 divbody">
+      <div class="col col-12 col-md-8 divbody">>
         <div class="description-content">
           <h1 class="description-header">Summary: Latitude vs. X</h1>
           <hr>
@@ -63,50 +69,40 @@
           <p>insert project desc here.</p>
         </div>
       </div>
-      
-      <div class="col-lg-5 col-md-12">
 ​
         <!-- visual nav -->
-        <section id="imageNav-area">
-          <div class="imageNav-content">
-            <h2 class="imageNav-header">Visualizations</h2>
-            <hr />
-            <div class="container">
-        <div class="row">
-        <div class="col-6">
-                  <a href="webcode/temp.html">
-            <img src="webcode/assets/images/Fig1.png" alt="Latitude vs. Max Temperature", title="Latitude vs. Max Temperature" class="imageNav-photo">
-          </a>
-        </div>
-        <div class="col-6">
-                  <a href="webcode/humidity.html">
-            <img src="webcode/assets/images/Fig2.png" alt="Latitude vs. Humidity", title="Latitude vs. Humidity" class="imageNav-photo">
-            </a>
-                  </div>
-        <div class="col-6">
-                  <a href="webcode/cloudiness.html">
-            <img src="webcode/assets/images/Fig3.png" alt="Latitude vs. Cloudiness", title="Latitude vs. Cloudiness", class="imageNav-photo">
-          </a>
-        </div>
-        <div class="col-6">
-                  <a href="webcode/wind.html">
-            <img src="webcode/assets/images/Fig4.png" alt="Latitude vs. Wind Speed", title="Latitude vs. Wind Speed", class="imageNav-photo">
-          </a>
-        </div>
-              </div>
-      </div>  
+
+        <div class="col col-12 col-md-4 divbody">
+          <br>
+          <h2>Visualizations</h2>
+          <hr>
+          <div class='row'>
+            <div class="col col-3 col-md-6">
+              <a href="webcode/temp.html"><img src="webcode/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" title="Latitude vs. Max Temperature"></a>
+            </div>
+            <div class="col col-3 col-md-6">
+              <a href="webcode/humidity.html"><img src="webcode/assets/images/Fig2.png" alt="Latitude vs. Humidity" title="Latitude vs. Humidity"></a>
+            </div>
+            <div class="col col-3 col-md-6">
+              <a href="webcode/cloudiness.html"><img src="webcode/assets/images/Fig3.png" alt="Latitude vs. Cloudiness" title ="Latitude vs. Cloudiness"></a>
+            </div>
+            <div class="col col-3 col-md-6">
+              <a href="webcode/wind.html"><img src="webcode/assets/images/Fig4.png" alt="Latitude vs. Wind Speed" title="Latitude vs. Wind Speed"></a>
+            </div>
           </div>
-        </section>
+        </div>
         <!-- end visual nav -->
 ​
       </div>
     </section>
   </div>
+  </div>
+  
   <!-- end container -->
 ​
   <!--footer -->
   <footer>
-    <div class="footer divfoot" ><h3>&copy; Copyright timsamson 2020</h3></div>
+    <div class="footer divfoot" >&copy; Copyright timsamson 2020</div>
   </footer>
   <!-- end footer -->
 
