@@ -79,7 +79,7 @@ body {
   z-index:2;
 }
 
-.divbdy{
+.divbody{
   background-color: white;
   z-index:1;
 }
@@ -90,7 +90,7 @@ body {
   z-index:1;
 }
 
-.divbtm {
+.divfoot {
   width:100%;
   /* position:absolute; */
   bottom:0;
