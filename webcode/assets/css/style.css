@@ -1,32 +1,33 @@
 img {
   max-width: 100%;
-}
-
-#imgsel{
-  border: lightseagreen 2px solid;
+  padding: 10px;
 }
 
 h1, h2, h3{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: lightseagreen;
+  color: yellowgreen;
+  padding: 10px;
 }
 
 h1{
   font-size: 24px;
   font-weight: bold;
   text-align:left;
+
 }
 
 h2{
   font-size: 22px;
   font-weight: bold;
   text-align:left;
+
 }
 
 h3{
   font-size: 16px;
   font-weight: bold;
   text-align: center;
+
 }
 
 p{
@@ -36,17 +37,27 @@ p{
 
 .navbar{
     position: absolute;
-    right: 30px;
 }
 
 .navbar a{
-  background-color:white;
+  background-color:gray;
+  font-size: 12pt;
+  color: black;
+  list-style-type:none;
+
+}
+
+ul
+{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
 }
 
 body {
   width: 100%;
   min-height:100%;
-  background-color: lightgray;
+  background-color: slategray;
 }
 
 .col {
@@ -57,13 +68,13 @@ body {
 } 
 
 .homebtn{
-  background-color: white;
+  background-color: lightblue;
   z-index:2;
 }
 
 .homebtn a{
   width: 110px;
-  background: lightseagreen;
+  background: rgba(4, 24, 140, 0.79);
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 18px;
   font-weight: bold;
@@ -75,30 +86,41 @@ body {
 }
 
 .divtop{
-  background-color: white;
+  background-color: lightblue;
   z-index:2;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .divbody{
   background-color: white;
   z-index:1;
+  padding: 10px;
+  border: 20px;
+  border-style: solid;
+  border-color: slategray;
 }
 
 .divtable{
   text-align:center;
   background-color: white;
   z-index:1;
+  padding: 20px;
 }
 
 .divfoot {
   width:100%;
   /* position:absolute; */
   bottom:0;
-  background-color: gray;
+  background-color: rgb(45, 44, 44);
   z-index:0;
-  font-size: 12px;
+  font-size: auto;
   color: white;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   margin: 0px;
+}
+
+.active-link{
+  border: 5px solid yellowgreen;
 }
