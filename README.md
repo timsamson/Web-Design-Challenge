@@ -12,5 +12,5 @@ Web site dashboard visualizing weather patterns in relation to latitude as well 
 <h3>Dependencies</h3>
 <ul>
 <li>Bootstrap Customization - version 4.3.1</li>
-<li>HTML - version 5</li>
-<li>CSS - version 3</li></ul>
+<li>HTML </li>
+<li>CSS </li></ul>
