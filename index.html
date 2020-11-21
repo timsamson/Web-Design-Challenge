@@ -21,12 +21,12 @@
 <!--header-->
 <div>
   <div class="row">
-    <div class="col col-6 homebtn">
+    <div class="col-8 homebtn">
       <a href="index.html">Lattitude</a>
     </div>
 
 <!-- NAVIGATION>-->
-<div class="col col-6 divtop">
+<div class="col-4 divtop">
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
   <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -47,9 +47,11 @@
         <a class="nav-link" href="webcode/comparison.html">Comparison</a>
     </li>
     <li class="nav-item">
+      <a class="nav-link" href="webcode/hemisphere.html">Hemisphere</a>
+    </li>
+    <li class="nav-item">
         <a class="nav-link" href="webcode/data.html">Data</a>
     </li>
-
   </div>
 </div>
 </nav>
@@ -64,7 +66,13 @@
           <h1 class="description-header">Summary: Latitude vs. X</h1>
           <hr>
           <img src="webcode/assets/images/Fig1.png" alt="Latitude vs. Max Temperature" class="description-image">
-          <p>insert project desc here.</p>
+          <p>The data project examines how weather changes globally based on the distance in 
+            latitude the closer the data points get to the equator. The data set was acquired 
+            from <a href="https://openweathermap.org/">OpenWeatherMap API</a> to create a dataset of ~ 500 location with weather data. 
+            This data was accessed on October 20th, 2020 and as such is reflected in the plots. </p>
+
+            <p><a href="https://matplotlib.org">MatPlotLib</a> was used to generate various graphs to assist in the analysis of the data including latitudes effect on temperature, cloudiness, wind speed and humidity. This dashboard provides the source data used for the analysis as well as plots and. Analytical summaries for each of the four data points analyzed. 
+            </p>
         </div>
       </div>
 ​

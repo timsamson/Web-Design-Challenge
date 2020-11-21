@@ -40,14 +40,13 @@ p{
 }
 
 .navbar a{
-  background-color:gray;
+  background-color:lightblue;
   font-size: 12pt;
   color: black;
   list-style-type:none;
-
 }
 
-ul
+li
 {
     list-style-type:none;
     padding:0px;
@@ -90,6 +89,7 @@ body {
   z-index:2;
   padding-left: 20px;
   padding-right: 20px;
+
 }
 
 .divbody{
@@ -124,3 +124,12 @@ body {
 .active-link{
   border: 5px solid yellowgreen;
 }
+
+@media (max-width: 800px) {
+.divtop {
+  background-color: yellowgreen;}
+.homebtn{
+  background-color: yellowgreen;}
+.navbar a{
+  background-color:yellowgreen;}
+  }
