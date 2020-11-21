@@ -5,8 +5,8 @@ Web site dashboard visualizing weather patterns in relation to latitude as well 
 <br>
 <hr>
 <h3>Links to dashboard and original data</h3>
-<a href="https://timsamson.github.io/Web-Design-Challenge/">Dashboard hosted on GitHub Pages</a>
-<a href="https://github.com/timsamson/Python_API_Challange.git">Link to Data and Plotting</a>
+<p><a href="https://timsamson.github.io/Web-Design-Challenge/">Dashboard hosted on GitHub Pages</a></p>
+<p><a href="https://github.com/timsamson/Python_API_Challange.git">Link to Data and Plotting</a></p>
 <br>
 <hr>
 
